@@ -1,0 +1,10 @@
+Crear nuevo proyecto django
+
+C:\Users\rogus\OneDrive\Escritorio>py -m venv ./envs/blog
+C:\Users\rogus\OneDrive\Escritorio\Blog\envs\blog\Scripts>activate
+(blog) C:\Users\rogus\OneDrive\Escritorio\Blog\envs\blog\Scripts>
+(blog) C:\Users\rogus\OneDrive\Escritorio\Blog>pip3 install django
+(blog) C:\Users\rogus\OneDrive\Escritorio\Blog>django-admin startproject blog
+(blog) C:\Users\rogus\OneDrive\Escritorio\Blog>cd blog
+(blog) C:\Users\rogus\OneDrive\Escritorio\Blog\blog>py manage.py runserver
+(blog) C:\Users\rogus\OneDrive\Escritorio\Blog\blog>py manage.py startapp users
